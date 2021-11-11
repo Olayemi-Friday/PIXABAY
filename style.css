@@ -49,3 +49,21 @@
 .banner1-btn {
     color: white;
 }
+.row1 {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+}
+.img-col1, .img-col2, .img-col3, .img-col4 {
+    /* width: 95%; */
+    /* margin: 20px auto; */
+    /* height: 300px; */
+}
+.column1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    max-width: 300px;
+}
